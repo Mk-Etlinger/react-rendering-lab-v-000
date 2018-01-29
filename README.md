@@ -15,8 +15,8 @@ In this module, we're going to have a go at actually using each of the component
 
 ### `componentWillReceiveProps()`
 Let's have a look at the first section. This is a little online survey of a book. People can rate the
-book based on how much they enjoyed it. They have 3 options: 'loved it', 'hated it' and 'indifferent'.
-We want to record not only the score the audience gave to the book, but also the trend of ratings as
+book based on how much they enjoyed it. They have 3 options: 'loved it', 'hated iand 'indifferent'.
+We want to record nott'  only the score the audience gave to the book, but also the trend of ratings as
 they are being given. So for example, if someone likes the book, the average score is *increasing*, if they
 dislike the book, it would be *decreasing* and if they're indifferent the score is *stable*. Have a look at
 `<Rating />` and `<Survey />` and implement a `componentWillReceiveProps()` which will compare the `nextProps.rating`
